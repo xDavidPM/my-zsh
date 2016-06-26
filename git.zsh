@@ -11,6 +11,9 @@ function git_prompt_info() {
 function bateria(){
   acpi -b
 }
+function date_specific(){
+  date
+}
 
 # Checks if working tree is dirty
 function parse_git_dirty() {

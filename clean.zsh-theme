@@ -1,7 +1,7 @@
 if [ $UID -eq 0 ]; then NCOLOR="red"; else NCOLOR="white"; fi
 
 #RPROMPT='[%*]' hora
-PROMPT='[%*]  $(bateria)%{$fg[$NCOLOR]%}%B%b%{$reset_color%}
+PROMPT='$(date)%   $(bateria)%{$fg[$NCOLOR]%}%B%b%{$reset_color%}
 %{$fg[blue]%}%B%c%b%{$reset_color%}$(git_prompt_info)  %(!.#.$)'
 #%c es para ~
 # git theming
